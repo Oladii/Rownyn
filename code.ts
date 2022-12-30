@@ -9,7 +9,7 @@ let margin = 80;
 main();
 
 function main() {
-    if (selecionLength == 0){
+    if (selecionLength == 0) {
         figma.closePlugin("А что выравнивать то?");
     }
     else {
@@ -73,7 +73,6 @@ function setPosition() {
         selection[map[i]].y = positionY;
         positionX = positionX + selection[map[i]].width + margin;
     }
-
 }
 
 
